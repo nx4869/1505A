@@ -1,0 +1,276 @@
+h5 {
+	margin-bottom: 0rem;
+	margin-top: 0rem;
+}
+
+.glyphicon {
+	font-size: 0.555555rem;
+	color: white;
+	border: 1px solid white;
+	border-radius: 2rem;
+	padding: 0.079444rem;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	background-color: #00aeef;
+	height: 1.25rem;
+	/*line-height: 1.25rem;*/
+}
+
+.left,
+.right {
+	width: 2.777777rem;
+}
+
+.center {
+	width: 4.444444rem;
+	border: 1px solid white;
+	height: 1.041666rem;
+	flex-grow: 1;
+	/*声明子项目默认栈剩余空间*/
+	display: flex;
+	text-align: center;
+}
+
+.header .center_left {
+	background: white;
+	color: #00aeef;
+}
+
+.header .center_left,
+.header .center_right {
+	display: inline-block;
+	/*转为行内块*/
+	width: 50%;
+	height: 100%;
+	line-height: 1.041666rem;
+}
+
+.header .right span {
+	float: right;
+	margin-right: 0.277777rem;
+}
+
+.header a{
+	color: white;
+	text-decoration: none;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.nav dl {
+	float: left;
+	width: 25%;
+	text-align: center;
+	margin-top: 0.277777rem;
+}
+
+.nav dl dt img {
+	width: 1.388888rem;
+}
+
+.nav dd {
+	margin-top: 0.243055rem;
+}
+
+.subscription h5 {
+	border-top: 1px solid #d6d3d6;
+	border-bottom: 1px solid #d6d3d6;
+	padding: 0.229166rem;
+	font-size: 0.430555rem;
+}
+
+.subscription h5 a {
+	font-size: 0.395833rem;
+	float: right;
+	margin-right: 0.277777rem;
+}
+
+.subscription .left img {
+	width: 1.597222rem;
+	/*height: 1.944444rem;*/
+	margin-top: 0.423611rem;
+	margin-left: 0.590277rem;
+	float: left;
+	margin-right: 0.569444rem;
+}
+
+.subscription .right {
+	margin-top: 0.375rem;
+	display: block;
+	float: right;
+	width: 69%;
+	margin-right: 0.333333rem;
+}
+
+.subscription .right h4 span {
+	color: #adaead;
+	font-size: 0.291666rem;
+	float: right;
+}
+
+.subscription .right p {
+	font-size: 0.430555rem;
+}
+
+.welcome h5 {
+	clear: both;
+	border-top: 0.173611rem solid #efeff7;
+	border-bottom: 1px solid #efeff7;
+	padding: 0.229166rem;
+	font-size: 0.430555rem;
+}
+
+.welcome span img {
+	width: 100%;
+	border-bottom: 0.173611rem solid #efeff7;
+}
+
+.welcome .left {
+	float: left;
+	width: 49%;
+}
+
+.welcome .left img {
+	width: 100%;
+	/*height: 100%;*/
+	/*border-right: 0.041666rem solid #efeff7;*/
+}
+
+.welcome .right {
+	float: left;
+	width: 50%;
+}
+
+.welcome .right img {
+	width: 100%;
+	border-left: 0.041666rem solid #efeff7;
+}
+
+.welcome .right img:first-child {
+	border-bottom: 0.041666rem solid #efeff7;
+}
+
+.flow h5 {
+	clear: both;
+	border-top: 0.173611rem solid #efeff7;
+	border-bottom: 1px solid #efeff7;
+	padding: 0.229166rem;
+	font-size: 0.430555rem;
+}
+
+.flow span img {
+	width: 100%;
+	border-bottom: 0.173611rem solid #efeff7;
+}
+
+.flow .left {
+	float: left;
+	width: 50%;
+}
+
+.flow .left img {
+	width: 100%;
+	/*height: 5.854166rem;*/
+	/*border-right: 0.041666rem solid #efeff7;*/
+}
+
+.flow .right {
+	float: left;
+	width: 50%;
+}
+
+.flow .right img {
+	width: 100%;
+	border-left: 0.041666rem solid #efeff7;
+}
+
+.flow .right img:last-child {
+	border-top: 0.091666rem solid #efeff7;
+}
+
+.Dezhi h5 {
+	clear: both;
+	border-top: 0.173611rem solid #efeff7;
+	border-bottom: 1px solid #efeff7;
+	padding: 0.229166rem;
+	font-size: 0.430555rem;
+}
+
+.Dezhi .left {
+	float: left;
+	/*margin-right: 2rem;*/
+	width: 50%;
+}
+
+.Dezhi .left img {
+	width: 100%;
+}
+
+.Dezhi .left img:first-child {
+	border-bottom: 0.041666rem solid #efeff7;
+}
+
+.Dezhi .right {
+	float: left;
+	width: 49%;
+}
+
+.Dezhi .right img {
+	width: 100%;
+	/*height: 5.854166rem;*/
+	border-left: 0.041666rem solid #efeff7;
+	float: right;
+}
+
+.Dezhi span img {
+	width: 100%;
+	border-top: 0.305555rem solid #efeff7;
+	border-bottom: 0.472222rem solid #efeff7;
+}
+
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex; /*让子元素横向，因为有个默认属性是flex-direction：row*/
+	width: 100%;
+	background: white;
+	z-index: 999;
+}
+
+.footer li{
+	/*display: flex;*/
+	width: 20%;
+	text-align: center;
+}
+
+.footer li img{
+	width: 0.784722rem;
+	height: 0.743055rem;
+}
+
+.top{
+	position: fixed;
+	bottom: 1.736111rem;
+	right: 0.208333rem;
+	z-index: 99;
+	display: block;
+	padding: 0.104166rem 0.208333rem;
+	background: greenyellow;
+	text-align: center;
+	line-height: 0.694444rem;
+	background: #d6d3d6;
+}
+a{
+	color: white;
+}
+
+.active{
+	color: coral;
+}

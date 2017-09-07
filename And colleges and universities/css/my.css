@@ -1,0 +1,86 @@
+body{
+	background: #edeff1;
+}
+.header {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	background-color: #00aeef;
+	height: 1.25rem;
+	font-size: 0.458333rem;
+	color: white;
+}
+.header a{
+	color: white;
+}
+.header .left,
+.header .right {
+	width: 2.777777rem;
+	margin-left: 0.5rem;
+}
+
+.header .center {
+	width: 4.444444rem;
+	/*border: 1px solid white;*/
+	/*height: 1.041666rem;*/
+	flex-grow: 1;
+	/*声明子项目默认栈剩余空间*/
+	/*display: flex;*/
+	text-align: center;
+}
+
+.login{
+	width: 100%;
+	height: 4.305555rem;
+	background-color: #00aeef;
+}
+
+.login{
+	text-align: center;
+}
+
+.login .glyphicon{
+	/*display: block;*/
+	font-size: 1.777777rem;
+	color: #73d3f5;
+	border: 1px solid white;
+	background-color: #b2e7f9;
+	border-radius: 2.5rem;
+	padding: 0.347222rem;
+	text-align: center;
+	margin-top: 0.402777rem;
+}
+
+.login a{
+	display: block;
+	margin-top: 0.381944rem;
+	color: white;
+	font-size: 0.347222rem;
+}
+
+.form{
+	width: 100%;
+	height: 8.416666rem;
+	background-color: white;
+	border-bottom: 0.055555rem solid #d1d1d1;
+	border-top: 0.055555rem solid #d1d1d1;
+	font-size: 0.416666rem;
+	margin-top: 0.361111rem;
+}
+
+.form .Year{
+	margin: 0.347222rem 0.5rem;
+	padding-bottom: 0.388888rem;
+	padding-left: 0.486111rem;
+	padding-right: 0.486111rem;
+	border-bottom: 0.055555rem solid #d1d1d1;
+}
+
+.form .Year:last-child{
+	border: 0rem;
+}
+
+.form .Year a{
+	float: right;
+	color: #a3a3a3;
+}

@@ -1,0 +1,81 @@
+.header {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	background-color: #00aeef;
+	height: 1.25rem;
+	color: white;
+	/*line-height: 1.25rem;*/
+}
+
+.left,
+.right {
+	width: 2.777777rem;
+	font-size: 0.694444rem;
+}
+
+.center {
+	width: 4.444444rem;
+	border: 1px solid white;
+	height: 1.041666rem;
+	flex-grow: 1;
+	/*声明子项目默认栈剩余空间*/
+	display: flex;
+	text-align: center;
+}
+
+.header .center_right {
+	background: white;
+	color: #00aeef;
+}
+
+.header .center_left,
+.header .center_right {
+	display: inline-block;
+	/*转为行内块*/
+	width: 50%;
+	height: 100%;
+	line-height: 1.041666rem;
+}
+
+.header .right span {
+	float: right;
+	margin-right: 0.277777rem;
+}
+
+.header a{
+	color: white;
+	text-decoration: none;
+}
+
+.subscription{
+	height: 2.763888rem;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+.subscription .left img {
+	width: 1.597222rem;
+	/*height: 1.944444rem;*/
+	margin-top: 0.423611rem;
+	margin-left: 0.590277rem;
+	float: left;
+	margin-right: 0.569444rem;
+}
+
+.subscription .right {
+	margin-top: 0.375rem;
+	display: block;
+	float: right;
+	width: 69%;
+	margin-right: 0.333333rem;
+}
+
+.subscription .right h4 span {
+	color: #adaead;
+	font-size: 0.291666rem;
+	float: right;
+}
+
+.subscription .right p {
+	font-size: 0.430555rem;
+}
