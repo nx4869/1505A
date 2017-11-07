@@ -41,4 +41,5 @@
 }
 .c {
    background-color: blue;
+   color: #eee;
 }
