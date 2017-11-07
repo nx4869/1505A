@@ -1,0 +1,23 @@
+<view class='container'>
+  <view class='header'>
+    <loading hidden="{{ !loading }}">
+      加載中...
+    </loading>
+    <text>{{title}}</text>
+  </view>
+  <view class='list'>
+    <navigator wx:for='{{ list }}' url='../item/item?id={{ item.id }}'>
+      <view class='list-item'>
+         <image src="{{item.images.large}}"/> 
+        <view class='info'>
+          <text class='title'>{{ item.title }}</text>
+          <text class='original_title'>{{ item.original_title }}({{ item.year }})</text>
+          <text>导演：<block wx:for="{{ item.directors }}">{{ item.name }}</block></text> 
+        </view>
+        <view class='rating'>
+          <text>{{item.rating.average }}</text>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>

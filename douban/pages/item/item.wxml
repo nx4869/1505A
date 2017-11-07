@@ -1,0 +1,14 @@
+<loading hidden="{{ !loading }}">
+  加載中...
+</loading>
+<image src='{{ images }}' mode='aspectFit' />
+<view class='title'>{{ title }}</view>
+<view class='average'>评分：
+  <block>{{ average }}</block>
+</view>
+<text>导演：<block class="directors">{{ directors }}</block></text>
+<view>主演：
+  <block wx:for="{{ casts }}" class="casts">{{ item.name }} </block>
+</view>
+<view>摘要</view>
+<view class='summary'>{{ summary }}</view>

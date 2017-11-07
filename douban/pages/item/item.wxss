@@ -1,0 +1,12 @@
+image{
+  margin-left: 70rpx; 
+  padding-top: 40rpx; 
+  width: 600rpx;
+  height: 800rpx;
+}
+.title{
+  text-align: center;
+}
+.average block{
+  color: #eee;
+}
