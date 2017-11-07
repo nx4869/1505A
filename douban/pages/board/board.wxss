@@ -39,3 +39,6 @@
   padding-top: 10rpx;
   font-size: 25rpx;
 }
+.c {
+   background-color: blue;
+}
