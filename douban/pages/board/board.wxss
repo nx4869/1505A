@@ -45,4 +45,5 @@
 }
 .d {
    background-color: blue;
+   color:red;
 }
