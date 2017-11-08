@@ -44,6 +44,6 @@
    color: #eee;
 }
 .d {
-   background-color: blue;
-   color:red;
+   background-color: red;
+   color: #eee;
 }
